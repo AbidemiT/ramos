@@ -1,11 +1,7 @@
 <script setup>
-import { watch } from 'vue';
-
-
 onMounted(() => {
     useSmoothScroll()
 })
-
 </script>
 
 <template>

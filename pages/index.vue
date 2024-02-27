@@ -10,7 +10,6 @@ watch(() => general.isPreloaderVisible, () => {
 })
 </script>
 
-
 <template>
     <main class="main">
         <Navbar />
@@ -263,7 +262,6 @@ h1 {
     font-weight: 500;
     line-height: normal;
     margin-bottom: 10px;
-    clip-path: inset(0px 0px 0px 0px);
 }
 
 .mobile-phone {

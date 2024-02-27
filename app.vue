@@ -6,18 +6,6 @@
   </div>
 </template>
 
-<script setup>
-useHead({
-  script: [
-    {
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText.min.js',
-      // valid options are: 'head' | 'bodyClose' | 'bodyOpen'
-      tagPosition: 'head'
-    }
-  ]
-})
-</script>
-
 <style lang="scss">
 body {
   font-family: 'Urbanist';
